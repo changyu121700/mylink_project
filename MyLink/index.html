@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>마이링크 - 박찬규</title>
+  <meta name="description" content="박찬규(changyu121700)의 마이링크 페이지입니다." />
+  <meta property="og:title" content="마이링크 - 박찬규" />
+  <meta property="og:description" content="나만의 링크 페이지를 한곳에 모았습니다." />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 48px 20px;
+      font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Noto Sans KR", sans-serif;
+      background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+      color: #1f2937;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 400px;
+      background: #ffffff;
+      border-radius: 24px;
+      padding: 40px 24px;
+      text-align: center;
+      box-shadow: 0 12px 32px rgba(91, 95, 199, 0.12);
+    }
+    .avatar {
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      background: #5B5FC7;
+      color: #ffffff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      box-shadow: 0 4px 12px rgba(91, 95, 199, 0.3);
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+      margin: 0 0 6px;
+      color: #111827;
+    }
+    .username {
+      font-size: 14px;
+      color: #5B5FC7;
+      font-weight: 600;
+      margin: 0 0 12px;
+    }
+    .bio {
+      font-size: 14px;
+      color: #6b7280;
+      margin: 0 0 28px;
+      line-height: 1.5;
+    }
+    .link-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .link-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 16px 20px;
+      background: #5B5FC7;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+      border-radius: 14px;
+      transition: transform 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .link-btn:hover {
+      background: #4a4eb5;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(91, 95, 199, 0.25);
+    }
+    .link-btn.secondary {
+      background: #f3f4f6;
+      color: #374151;
+    }
+    .link-btn.secondary:hover {
+      background: #e5e7eb;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+    }
+    .footer {
+      margin-top: 32px;
+      font-size: 12px;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="avatar">CG</div>
+    <h1>박찬규</h1>
+    <div class="username">@changyu121700</div>
+    <p class="bio">전자공학 전공 · 프로젝트 및 아카이브 링크 모음</p>
+
+    <div class="link-list">
+      <a class="link-btn" href="https://github.com/changyu121700" target="_blank" rel="noopener noreferrer">
+        GitHub (@changyu121700) 바로가기
+      </a>
+      <a class="link-btn secondary" href="https://github.com/changyu121700/mylink_project" target="_blank" rel="noopener noreferrer">
+        마이링크 프로젝트 저장소 보기
+      </a>
+    </div>
+
+    <div class="footer">
+      Powered by MyLink · Vibe Coding
+    </div>
+  </div>
+</body>
+</html>
